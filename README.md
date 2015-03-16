@@ -1,3 +1,6 @@
+### install dependencies
+    npm install
+
 ### debug
     npm run start # start webpack task
 

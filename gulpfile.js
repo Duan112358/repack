@@ -32,15 +32,21 @@ gulp.task('webpack', function() {
         .pipe(gulp.dest(dest));
 });
 
-gulp.task('html', function(){
+gulp.task('html',['asserts'],  function(){
+    // copy static assert 
    return gulp.src('index.html')
-        .pipe(replace(/@@hash/g, Date.now()));
+        .pipe(replace(/@@hash/g, Date.now()))
+        .pipe(gulp.dest('build'));
+});
+
+gulp.task('asserts', function(){
+    return gulp.src('static/**/*.[svg|png]')
+        .pipe(gulp.dest('builld'));
 });
 
 gulp.task('default', ['webpack'], function(){
-   return gulp.src('index.html')
-        .pipe(replace(/@@hash/g, Date.now()))
-        .pipe(gulp.dest('../bin/templates'));
+    // nothing done
+    // TODO: hotloader should configured
 });
 
 gulp.task('watch', function() {
