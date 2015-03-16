@@ -1,0 +1,145 @@
+
+.apply{
+    .full();
+
+    overflow: hidden;
+    position: relative;
+
+    -webkit-animation: scalein .8s ease-in;
+    animation: scalein .8s ease-in;
+    background-image: linear-gradient(-180deg, #A4E1F8 0%, #FAD8BE 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .note{
+        position: relative;
+        left: 0;
+        right: 0;
+
+        -webkit-line-clamp: 2;
+        text-overflow: ellipsis;
+        padding: 15px;
+        line-height: 20px;
+        font-size: 14px;
+        color: #4A4A4A;
+        background-color: rgba(255, 255, 255, .5);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .35);
+        border-radius: 18px;
+
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .header{
+        position: absolute;
+        height: 600px;
+        width: 600px;
+        left: 50%;
+        margin-left: -300px;
+        background-image: url('/static/images/light.png');
+        background-position: top left;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        -webkit-animation: rotate 5s infinite linear;
+        animation: rotate 5s infinite linear;
+    }
+
+    .footer{
+        .full();
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        background-image: url('/static/images/apply/cloud-back.svg');
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: contain;
+
+        z-index: 3;
+    }
+    .content{
+        position: relative;
+        .full();
+        background-image: url('/static/images/apply/stars.svg');
+        background-repeat: no-repeat;
+        background-position: center 10px;
+        background-size: 95%;
+
+        .redpack{
+            position: absolute; 
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            width: 80%;
+            
+            background-color: #FB2A2A;
+            box-shadow: 0 4px 1px 0 rgba(0, 0, 0, .19);
+            border-radius: 0 0 40px 40px;
+            
+            background-image: url('/static/images/apply/pack-header.svg');
+            background-size: contain;
+            background-position: top center;
+            background-repeat: no-repeat;
+
+            z-index: 5;
+
+            .com-logo{
+                width: 50px;
+                margin: 0 auto; 
+                display: block;
+            }
+            
+            .msg{
+                color: white;
+                font-size: 15px;
+                line-height: 50px;
+                text-align: center;
+                display: block;
+            }
+
+            .mobile{
+                display: block;
+                width: 80%;
+                margin: 0 auto;
+                text-align: center;
+                line-height: 20px;
+                padding: 10px 0;
+                background-color: white;
+                box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.35), inset 0px 1px 2px 0px rgba(0,0,0,0.35);
+                border-radius: 8px;
+                outline: none;
+                border: none;
+            }
+
+            .apply-btn{
+                display: block;
+                width: 80%;
+                padding: 0;
+                margin: 25px auto;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 8px;
+                outline: none;
+                border: none;
+                background-color: #F5A623;
+                color: white;
+                font-size: 18px;
+            }
+        }
+
+        .backdrop{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+
+            z-index: 6;
+        }
+    }
+}
+
+

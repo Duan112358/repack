@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="51px" viewBox="0 0 60 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>分享icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="分享蒙层-2" sketch:type="MSArtboardGroup" transform="translate(-920.000000, -338.000000)" fill="#FFFFFF">
+            <g id="1.点击右上角-+-iconfont-fenxiang" sketch:type="MSLayerGroup" transform="translate(797.000000, 262.000000)">
+                <path d="M135.375855,109.273357 C147.235187,95.6916152 164.64012,98.5521366 164.64012,98.5521366 L164.64012,109.387772 L183,92.9434432 L164.63901,76.5 L164.63901,87.410805 C137.097082,87.2200397 135.375855,109.273357 135.375855,109.273357 L135.375855,109.273357 Z M129.135935,83.7825747 L148.722411,83.7825747 L148.722411,77.6863452 L123.019081,77.6863452 L123.019081,83.7825747 L127.515217,83.7825747 L123,83.8159918 L123,120.401189 L129.135935,120.408344 L129.135935,83.7825747 L129.135935,83.7825747 Z M171.955909,120.415573 L123.010946,120.415573 L123.010946,126.5 L171.955909,126.5 L171.955909,126.491664 L178.075129,126.498598 L178.075129,109.416246 L171.955909,109.416246 L171.955909,120.415573 L171.955909,120.415573 Z" id="分享icon" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
