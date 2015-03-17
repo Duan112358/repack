@@ -44,6 +44,7 @@ var Result = React.createClass({
 
         msg.style.lineHeight = radio * 40 + 'px';
         amount.style.lineHeight = radio * 100 + 'px';
+        amount.style.fontSize = radio * 60 + 'px';
 
         sendBtn.style.margin = radio * 15 + 'px auto';
         useBtn.style.margin = radio * 15 + 'px auto';

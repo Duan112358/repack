@@ -32,7 +32,7 @@ gulp.task('webpack', function() {
         .pipe(gulp.dest(dest));
 });
 
-gulp.task('html',['asserts'],  function(){
+gulp.task('html', function(){
     // copy static assert 
    return gulp.src('index.html')
         .pipe(replace(/@@hash/g, Date.now()))
@@ -40,7 +40,7 @@ gulp.task('html',['asserts'],  function(){
 });
 
 gulp.task('asserts', function(){
-    return gulp.src('static/**/*.[svg|png]')
+    return gulp.src('static/images/**/*')
         .pipe(gulp.dest('builld'));
 });
 

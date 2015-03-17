@@ -7,7 +7,8 @@
     python -m SimpleHTTPServer 3000 # start the static server
 
 ### Demo
-    http://localhost:3000/#/
+    cd build # navigate to build dir
+    open http://localhost:3000/#/
 
 
 ### release
